@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TP 1</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        tfoot {
+            font-weight: bold;
+            background-color: gray
+
+        }
+    </style>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        header,footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        main {
+            padding: 10px;
+        }
+        section {
+            margin-bottom: 20px;
+            border: 2px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Encabezado Principal</h1>
+</header>
+
+<main>
+    <p>Este texto es parte del main, pero no pertenece a ninguna sección</p>
+    <section>
+
+<h1 id="estructura">1. Estructura Básica del Documento HTML</h1>
+<p>Este documento HTML tiene una estructura básica que incluye una declaración de DOCTYPE, etiquetas de metadatos y un título</p>
+
+    </section>
+    <section>
+
+<h1>2. Encabezados y Propiedades del Texto</h1>
+<p><b>Este es un texto en negrita</b></p>
+<p><em>Este es un texto en cursiva</em></p>
+<p><u>Este es un texto subrayado</u></p>
+<p><mark>Esto es un texto resaltado</mark></p>
+<h3>Este texto está en h3</h3>
+<h4>Este texto está en h4</h4>
+<h5>Este texto está en h5</h5>
+<h6>Finalmente, este texto está en h6</h6>
+
+    </section>
+    <section>
+
+<h1>3. Divisiones y Agrupación de Contenido</h1>
+<div>
+    <h2>Sección 1</h2>
+    <p>Contenido de la primera sección agrupada en un div.</p>
+</div>
+<div>
+    <h2>Sección 2</h2>
+    <p>Contenido de la segunda sección agrupada en un div.</p>
+</div>
+
+    </section>
+    <section>
+
+<h1>4. Enlaces y Listas</h1>
+<p>Visita nuestro sitio web <a href="https://www.ejemplo.com" target="_blank">sitio web</a> para más información</p>
+
+<p>Enlaces internos:</p>
+<li><a href="#estructura">Ir a Estructura</a></li>
+<li><a href="#multimedia">Ir a Multimedia</a></li>
+<li><a href="#formulario">Ir a Formularios</a></li>
+
+<p>Lista desordenada:</p>
+<ul>
+    <li>Primer ítem de una lista desordenada</li>
+    <li>Segundo ítem de una lista desordenada</li>
+</ul>
+
+<p>Lista ordenada:</p>
+<ol>
+    <li>Primer ítem de una lista ordenada</li>
+    <li>Segundo ítem de una lista ordenada</li>
+</ol>
+
+    </section>
+    <section>
+
+<h1 id="multimedia">5. Elementos Multimedia</h1>
+<img src="testImagen.jpg"
+     alt="Una imagen"
+     width="612" height="344">
+
+<video src="testVideo.mp4"
+       controls
+       width="412"
+       height="344"></video>
+
+<audio controls>
+    <source src="testAudio.mp3" type="audio/mp3">
+</audio>
+
+    </section>
+    <section>
+
+<h1>6. Tablas</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Columna 1</th>
+        <th>Columna 2</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Dato 1</td>
+        <td>Dato 2</td>
+    </tr>
+    </tbody>
+
+    <tfoot>
+    <tr>
+        <td>Dato 3</td>
+        <td>Dato 4</td>
+    </tr>
+    </tfoot>
+</table>
+
+    </section>
+    <section>
+<h1 id="formulario">7. Formularios</h1>
+<form>
+    <div>
+        <label>Nombre:</label>
+        <input type="text" placeholder="Ingrese su Nombre">
+    </div>
+    <div>
+        <label>Correo Electrónico:</label>
+        <input type="email" placeholder="alumno@UTN.com.ar">
+    </div>
+    <div>
+        <label>Mensaje:</label>
+        <textarea placeholder="Escriba su mensaje"></textarea>
+    </div>
+    <button type="sumbit">Enviar</button>
+</form>
+
+    </section>
+
+</main>
+
+    <footer>
+        <h3>Fin del TP 1</h3>
+    </footer>
+
+</body>
+</html>
